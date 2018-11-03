@@ -11,6 +11,6 @@ cd collabfield
 
 rake db:create
 
-ake db:migrate
+rake db:migrate
 
 rails s
