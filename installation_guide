@@ -1,0 +1,16 @@
+Rails end to end installation guide:
+
+https://gorails.com/setup/ubuntu/16.04
+
+
+Start a new rails project:
+
+rails new collabfield --database=postgresql  // application name:collabfield with db postgresql created
+
+cd collabfield
+
+rake db:create
+
+ake db:migrate
+
+rails s
